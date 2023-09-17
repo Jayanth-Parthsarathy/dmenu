@@ -10,12 +10,8 @@ static const char *fonts[] = {
 	"JetBrainsMono NerdFont:size=12"
 };
 static const char *prompt      = "選";      /* -p  option; prompt to the left of input field */
-static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeOut] = { "#000000", "#00ffff" },
-};
+#include "mocha.h"
+
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 10;
 /* -h option; minimum height of a menu line */
