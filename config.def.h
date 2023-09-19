@@ -10,7 +10,7 @@ static const char *fonts[] = {
 	"JetBrainsMono NerdFont:size=12"
 };
 static const char *prompt      = "選";      /* -p  option; prompt to the left of input field */
-#include "mocha.h"
+#include "gruvbox.h"
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 10;
